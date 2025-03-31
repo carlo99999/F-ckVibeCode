@@ -19,7 +19,7 @@ features_values=[]
 for i,col in enumerate(cols):
     with col:
         st.write("Input for "+features[i])
-        features_values.append(st.number_input(features[i]))
+        features_values.append(st.number_input(features[i],min_value=0.,max_value=10.,step=0.5))
 
 features_values=pd.DataFrame([features_values],columns=features)
 
