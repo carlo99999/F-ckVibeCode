@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "2- titanic survival prediction"
+version = "0.1.0"
+description = ""
+authors = ["CarloPiccinin <carlo.piccinin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "2"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+xgboost = "^3.0.0"
+scikit-learn = "^1.6.1"
+torch = "^2.6.0"
+pandas = "^2.2.3"
+pandera = "^0.23.1"
+numpy = "^2.2.4"
+polars = "^1.26.0"
+plotly = "^6.0.1"
+streamlit = "^1.44.0"
+tqdm = "^4.67.1"
+lightgbm = "^4.6.0"
+optuna = "^4.2.1"
+nbformat = "^5.10.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
