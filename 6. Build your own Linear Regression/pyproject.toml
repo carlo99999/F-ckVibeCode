@@ -1,0 +1,7 @@
+[project]
+name = "6-build-your-own-linear-regression"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
