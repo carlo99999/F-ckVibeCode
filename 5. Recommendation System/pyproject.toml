@@ -1,0 +1,24 @@
+[project]
+name = "5-recommendation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "marimo>=0.12.6",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "plotly>=6.0.1",
+    "scikit-learn>=1.6.1",
+    "torch>=2.6.0",
+    "tqdm>=4.67.1",
+    "xgboost>=3.0.0",
+]
+
+[tool.marimo]
+autosave = true
+
+[tool.uv.workspace]
+members = ["6. Build your own Linear Regression"]

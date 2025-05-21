@@ -1,0 +1,4 @@
+import marimo
+
+marimo.serve()
+

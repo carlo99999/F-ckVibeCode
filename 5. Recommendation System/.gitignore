@@ -1,0 +1,10 @@
+data/
+models/
+*.csv
+*.json
+*.pkl
+*.joblib
+*.pickle
+*.pickle.gz
+__marimo__
+__pycache__
