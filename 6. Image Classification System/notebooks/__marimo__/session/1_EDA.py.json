@@ -1,0 +1,41 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.6",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "ae6486fdd4485f6d7dc04c863b2ccfed",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "b6cf5848c993e4999a1399c5fd718b21",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "{\"test\": {\"NORMAL\": 234, \"PNEUMONIA\": 390}, \"train\": {\"NORMAL\": 1341, \"PNEUMONIA\": 3875}, \"val\": {\"NORMAL\": 8, \"PNEUMONIA\": 8}}"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PWpR",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
