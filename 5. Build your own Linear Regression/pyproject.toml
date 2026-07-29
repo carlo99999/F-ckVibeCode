@@ -1,7 +1,12 @@
 [project]
-name = "6-build-your-own-linear-regression"
+name = "5-build-your-own-linear-regression"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.1",
+    "plotly>=6.9.0",
+    "pyrefly>=1.1.1",
+    "ruff>=0.16.0",
+]
